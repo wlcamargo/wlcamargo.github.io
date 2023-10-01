@@ -13,35 +13,39 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
-    <!-- Page navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="Wallace Graça - Business Intelligence Consultant" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#service">Service</a>
-                    </li>                   
-                    <li class="nav-item">
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>          
+       <!-- Page navigation -->
+       <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+        <!-- Seu código da barra de navegação aqui -->
+        <ul class="navbar-nav ml-auto align-items-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#service">Service</a>
+            </li>
+            <!-- Adicione links para as âncoras das seções aqui -->
+            <li class="nav-item">
+                <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skill">Skill</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#certification">Certification</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#myvideos">Video</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
     </nav>
     <!-- End of page navigation -->
+
 
     <!-- Page Header -->
     <header class="header" id="home">
@@ -60,8 +64,11 @@
                     <a class="social-item" href="https://www.youtube.com/channel/UCK0B4IoF57JoiVVVeEcN8-A" target="_blank"><i class="ti-youtube"></i></a>
                 </div>
             </div>              
+        <div class="img-holder">
+            <img src="assets/imgs/man.svg" alt="">
+        </div>      
+    </div>              
 
-        </div>  
 
         <!-- Header-widget -->
         <div class="widget">
@@ -148,9 +155,10 @@
     
 
     <!-- Table section -->
+<section id="project" class="position-relative section">    
 <section class="section">
     <div class="container text-center">
-        <h6 class="subtitle">Projects</h6>
+        <h6 class="subtitle">Project</h6>
         <h6 class="section-title mb-4">My Projects</h6>
         
         <!-- Table -->
@@ -424,6 +432,7 @@
 <!-- End of Table section -->
 
     <!-- Skills section -->
+    <section id="skill" class="position-relative section"> 
     <section class="section">
         <div class="container text-center">
             <h6 class="subtitle">Skills</h6>
@@ -523,7 +532,7 @@
     <!-- End of Skills sections -->
 
 <!-- Certificates section -->
-<section id="certifications" class="section">
+<section id="certification" class="section">
     <div class="container text-center">
         <h6 class="subtitle">Certifications</h6>
         <h6 class="section-title mb-4">My Certifications</h6>
@@ -544,29 +553,24 @@
 <!-- End of Certificates section -->
 
 <!-- MyVideos section -->
-<!-- MyVideos section -->
-<!-- MyVideos section -->
 <section id="myvideos" class="section">
     <div class="container text-center">
-        <h6 class="subtitle">My Videos</h6>
+        <h6 class="subtitle">Video</h6>
         <h6 class="section-title mb-4">Watch My Videos</h6>
         
         <!-- Create a flex container for the videos with space between them -->
-        <div class="d-flex justify-content-between">
+        <div class="d-flex flex-column align-items-center">
             <!-- Embed your first YouTube video here -->
-            <iframe width="562" height="382" src="https://www.youtube.com/embed/cl9Ysi0GBfE" title="Baixar Arquivo da Internet com o Python" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            
-            <!-- Add a small space between the videos -->
-            <div style="width: 20px;"></div>
-       
-            <!-- Embed your second YouTube video here -->
             <iframe width="562" height="382" src="https://www.youtube.com/embed/fltjmaeXbfQ" title="Projeto Evangelizando o SQL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
+            
+            <!-- Description with margin -->
+            <p class="video-description" style="margin-top: 20px;">A minha maior contribuição com a comunidade foi participar da elaboração de um curso gratuito de SQL realizado em 2023.</p>
         </div>
     </div>
 </section>
 <!-- End of MyVideos section -->
+
+
 
 
 
