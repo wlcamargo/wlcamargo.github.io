@@ -26,12 +26,6 @@
 </head>
 
 <body>
-    <!-- Messenger Chat plugin Code -->
-    
-
-
-    
-  <!-- Mobile menu button -->
   
   <div id="home" class="visuallyHidden"></div>
   <div class="menuButton" id="menuButton" tabindex=0>
@@ -352,50 +346,56 @@
           </div>
         </section>
 
-        <!-- Contact Section -->
-        <section class="contactSection" id="contact">
-          <div class="sectionHead">
-            <span>SAY HELLO</span>
-            <h2>CONTACT</h2>
-          </div>
+<!-- Contact Section -->
+<section class="contactSection" id="contact">
+  <div class="sectionHead">
+    <span>SAY HELLO</span>
+    <h2>CONTACT</h2>
+  </div>
 
-          <div class="contactContainer sectionContainer">
-            <h3>Get in Touch</h3>
-            <div class="contactTypes">
-              <div class="flexContainer">
-                <div class="typeBox">
-                  <i class="lni lni-envelope"></i>
-                  <a href="mailto:wallacecpdg@gmail.com">wallacecpdg@gmail.com</a>
-                  <p>Email Me</p>
-                </div>
-              </div>
-              <div class="flexContainer">
-                <div class="typeBox">
-                  <i class="lni lni-calendar"></i>
-                  <a href="https://calendly.com/wlcamargo/30min" target="_blank" rel="noopener noreferrer">Calendly</a>
-                  <p>Schedule a Meeting</p>
-                </div>
-              </div>
-            </div>
-            <div class="contactFormContainer">
-              <h3>Contact Form</h3>
+  <div class="contactContainer sectionContainer">
+    <h3>Get in Touch</h3>
+    <div class="contactTypes">
+      <div class="flexContainer">
+        <div class="typeBox">
+          <i class="lni lni-envelope"></i>
+          <a href="mailto:wallacecpdg@gmail.com">wallacecpdg@gmail.com</a>
+          <p>Email Me</p>
+        </div>
+      </div>
+      <div class="flexContainer">
+        <div class="typeBox">
+          <i class="lni lni-phone"></i>
+          <a href="tel:+351926802230">+351 926802230</a>
+          <p>Call Me</p>
+        </div>
+      </div>
+      <div class="flexContainer">
+        <div class="typeBox">
+          <i class="lni lni-calendar"></i>
+          <a href="https://calendly.com/wlcamargo/30min" target="_blank" rel="noopener noreferrer">Calendly</a>
+          <p>Schedule a Meeting</p>
+        </div>
+      </div>
+    </div>
+    <div class="contactFormContainer">
+      <h3>Contact Form</h3>
 
-              <form id="contactForm" action="https://formspree.io/f/xleqjylo" method="POST">
-                  <label for="nameInput" class="srOnly"></label>
-                  <input type="text" id="nameInput" name="nameInput" class="nameInput" required placeholder="Your Name*"/>
-                  <label for="emailInput" class="srOnly"></label>
-                  <input type="email" id="emailInput" name="emailInput" class="emailInput" required placeholder="Your Email*" />
-                  <label for="subjectInput" class="srOnly"></label>
-                  <input type="text" id="subjectInput" name="subjectInput" class="subjectInput" required placeholder="Subject*"/>
-                  <label for="messageInput" class="srOnly"></label>
-                  <textarea class="messageInput" name="messageInput" id="messageInput" required placeholder="Your Message*"></textarea>
-              </form>
+      <form id="contactForm" action="https://formspree.io/f/xleqjylo" method="POST">
+          <label for="nameInput" class="srOnly"></label>
+          <input type="text" id="nameInput" name="nameInput" class="nameInput" required placeholder="Your Name*"/>
+          <label for="emailInput" class="srOnly"></label>
+          <input type="email" id="emailInput" name="emailInput" class="emailInput" required placeholder="Your Email*" />
+          <label for="subjectInput" class="srOnly"></label>
+          <input type="text" id="subjectInput" name="subjectInput" class="subjectInput" required placeholder="Subject*"/>
+          <label for="messageInput" class="srOnly"></label>
+          <textarea class="messageInput" name="messageInput" id="messageInput" required placeholder="Your Message*"></textarea>
+      </form>
 
-              <button type="submit" class="formSend" target="_blank" form="contactForm" rel="noopener noreferrer">SEND</button>
-            </div>
-          </div> 
-
-        </section>
+      <button type="submit" class="formSend" target="_blank" form="contactForm" rel="noopener noreferrer">SEND</button>
+    </div>
+  </div> 
+</section>
       </main> <!-- End of Main -->
     </div>
     <!-- Footer -->
@@ -405,37 +405,6 @@
     <!-- Icons provided by https://lineicons.com/ -->
   </div> <!-- End of the wrapper -->
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="scripts/index.js"></script>
-    <!-- Messenger Chat plugin Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Chat plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "110697160734367");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v13.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
     
     <script src="script.js"></script>
 </body>
