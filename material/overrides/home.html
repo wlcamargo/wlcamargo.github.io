@@ -1,0 +1,30 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% extends "main.html" %}
+{% block tabs %}
+  {{ super() }}
+  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__image">
+          <img src="assets/images/illustration.png" alt="" width="1659" height="1200" draggable="false">
+        </div>
+        <div class="mdx-hero__content">
+          <p class="greeting">HI THERE! I'M</p>
+          <h1>Wallace Graça - Data Engineer</h1>
+          <p class="smallBio">I am a Data Engineer professional with more than 6 years of experience in data area with the ability to plan and develop a data product from start to finish with the best market practices.</p>  
+          <a href="{{ 'resume/Data-Engineer Wallace-Graça.pdf' | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
+            Resume
+          </a>
+          <a href="{{ 'blog/' | url }}" title="Material for MkDocs Insiders" class="md-button">
+            Blog
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}
