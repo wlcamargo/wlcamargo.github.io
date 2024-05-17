@@ -187,6 +187,7 @@ nav:
     - Spark: projects/spark.md
     - Infra: projects/infra.md
     - Cloud: projects/cloud.md
+    - Data Catalog: projects/data_catalog.md
   - Blog:
     - blog/index.md
 
