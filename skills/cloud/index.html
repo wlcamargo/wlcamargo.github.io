@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../assets/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.23">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.27">
     
     
       
@@ -87,11 +87,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#cloud" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -135,12 +130,7 @@
     <a href="../.." title="Portfolio Wallace Graça" class="md-header__button md-logo" aria-label="Portfolio Wallace Graça" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
-  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
-  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
-  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
-  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
-</svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -227,7 +217,7 @@
       
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initializing search
@@ -401,12 +391,7 @@
     <a href="../.." title="Portfolio Wallace Graça" class="md-nav__button md-logo" aria-label="Portfolio Wallace Graça" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
-  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
-  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
-  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
-  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
-</svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
     Portfolio Wallace Graça
@@ -485,6 +470,8 @@
       
         
           
+        
+      
         
       
         
@@ -667,8 +654,6 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -718,6 +703,27 @@
   
   <span class="md-ellipsis">
     Infra
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data_catalog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Catalog
   </span>
   
 
@@ -1103,8 +1109,6 @@
   
   
   
-    
-  
   
 </nav>
                   </div>
@@ -1119,10 +1123,58 @@
                   
 
 
-<h1 id="cloud">Cloud<a class="headerlink" href="#cloud" title="Permanent link">&para;</a></h1>
-<p>Google Cloud Platform</p>
-<p>Azure</p>
-<p>Databricks</p>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nível de Habilidade em Ferramentas</title>
+    <style>
+        .slider-container {
+            margin-bottom: 20px;
+        }
+        .slider-label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .slider-value {
+            display: inline-block;
+            width: 30px;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function updateSliderValue(sliderId, valueId) {
+            var slider = document.getElementById(sliderId);
+            var value = document.getElementById(valueId);
+            value.textContent = slider.value;
+        }
+
+        window.onload = function() {
+            updateSliderValue('gcp', 'gcp-value');
+            updateSliderValue('azure', 'azure-value');
+            updateSliderValue('databricks', 'databricks-value');
+        }
+    </script>
+</head>
+<body>
+    <h1>Cloud</h1>
+    <form>
+        <div class="slider-container">
+            <label class="slider-label" for="gcp">Google Cloud Platform: <span id="gcp-value">4</span></label>
+            <input type="range" id="gcp" name="gcp" min="0" max="5" value="4" disabled>
+        </div>
+        <div class="slider-container">
+            <label class="slider-label" for="azure">Azure: <span id="azure-value">5</span></label>
+            <input type="range" id="azure" name="azure" min="0" max="5" value="5" disabled>
+        </div>
+        <div class="slider-container">
+            <label class="slider-label" for="databricks">Databricks: <span id="databricks-value">4</span></label>
+            <input type="range" id="databricks" name="databricks" min="0" max="5" value="4" disabled>
+        </div>
+    </form>
+</body>
+</html>
 
 
 
@@ -1273,7 +1325,7 @@
     
     
   
-      <script src="../../assets/javascripts/bundle.ebd0bdb7.min.js"></script>
+      <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
   <script src="../../assets/javascripts/custom.63a6dff3.min.js"></script>

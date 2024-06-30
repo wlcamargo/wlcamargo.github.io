@@ -1,34 +1,20 @@
-name: Deploy Documentation
-
+name: Deploy to GitHub Pages
 on:
-  push:
-    branches:
-      - main  # ou a branch que você deseja monitorar
-
+    push:
+      branches:
+        - main
+    pull_request:
+      branches:
+        - main
+        
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Check out the repository
-      uses: actions/checkout@v2
-
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
-
-    - name: Install mkdocs and plugins
-      run: |
-        pip install mkdocs
-        pip install mkdocs-material
-
-    - name: Build the mkdocs site
-      run: |
-        cd docs
-        mkdocs build
-
-    - name: Copy site to root
-      run: |
-        cp -r docs/site/* .
-
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material
+      - run: mkdocs build
+      - run: mkdocs gh-deploy --force

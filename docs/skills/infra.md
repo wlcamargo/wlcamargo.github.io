@@ -1,7 +1,0 @@
-# Infra
-
-Docker 
-
-Kubernetes
-
-Terraform

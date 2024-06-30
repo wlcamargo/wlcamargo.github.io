@@ -1,5 +1,0 @@
-# Operating Systems
-
-Linux
-
-Windows

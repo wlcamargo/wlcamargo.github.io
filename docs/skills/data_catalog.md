@@ -1,3 +1,0 @@
-# Data Catalog
-
-Open Metadata
