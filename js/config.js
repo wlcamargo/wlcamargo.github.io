@@ -205,7 +205,7 @@ const SITE_CONFIG = {
     {
       name: "Azure Data Fundamentals (DP-900)",
       image: "assets/images/badges/dp-900.png?v=4",
-      url:   "https://learn.microsoft.com/en-us/users/wlcamargo/credentials/certification/azure-data-fundamentals?tab=credentials-tab&source=docs"
+      url:   "https://learn.microsoft.com/api/credentials/share/en-us/wlcamargo/9F29BEAE8D17D8C4?sharingId=52F16E1E9D4D6B2"
     },
     {
       name: "Apache Airflow Fundamentals",
@@ -215,12 +215,12 @@ const SITE_CONFIG = {
     {
       name: "Fabric Data Engineer Associate",
       image: "assets/images/badges/dp700.png?v=4",
-      url:   "https://learn.microsoft.com/en-us/users/wlcamargo/credentials/certification/fabric-data-engineer-associate?tab=credentials-tab&source=docs"
+      url:   "https://learn.microsoft.com/api/credentials/share/en-us/wlcamargo/54721651A065D9CB?sharingId=52F16E1E9D4D6B2"
     },
     {
       name: "GitHub Foundations (GH-900)",
       image: "assets/images/badges/github.svg?v=4",
-      url:   "https://learn.microsoft.com/en-us/users/wlcamargo/credentials/certification/github-foundations?tab=credentials-tab&source=docs"
+      url:   "https://learn.microsoft.com/api/credentials/share/en-us/wlcamargo/2BE31FC1F0230D87?sharingId=52F16E1E9D4D6B2"
     }
   ]
 };
