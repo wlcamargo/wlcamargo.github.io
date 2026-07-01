@@ -1,0 +1,10 @@
+services:
+  portfolio:
+    build: .
+    container_name: wallace-portfolio
+    ports:
+      - "8080:80"
+    volumes:
+      # Hot-reload: edita o arquivo no host, atualiza no navegador (F5)
+      - ./:/usr/share/nginx/html:ro
+    restart: unless-stopped
