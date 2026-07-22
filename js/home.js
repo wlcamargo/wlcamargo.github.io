@@ -18,6 +18,10 @@
         </div>
       </div>
       <div class="hero-certs">
+        <div class="hero-certs-header">
+          <h3 class="hero-certs-title" data-i18n="hero.certsTitle">Official Certifications</h3>
+          <span class="hero-certs-rule"></span>
+        </div>
         <div class="cert-grid">${certs}</div>
       </div>
     `;

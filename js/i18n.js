@@ -34,7 +34,7 @@ const I18N = {
   en: {
     nav: { home: "Home", about: "About", experience: "Experience", projects: "Projects", courses: "Courses", blog: "Blog" },
     notification: "Follow me on social medias or text-me",
-    hero: { greeting: "Hi there! I'm", resume: "Resume" },
+    hero: { greeting: "Hi there! I'm", resume: "Resume", certsTitle: "Official Certifications" },
     about: { title: "About Me", location: "Location" },
     experience: { title: "Experience" },
     projects: {
@@ -69,7 +69,7 @@ const I18N = {
   es: {
     nav: { home: "Inicio", about: "Sobre mí", experience: "Experiencia", projects: "Proyectos", courses: "Cursos", blog: "Blog" },
     notification: "Sígueme en mis redes sociales o escríbeme",
-    hero: { greeting: "¡Hola! Soy", resume: "Currículum" },
+    hero: { greeting: "¡Hola! Soy", resume: "Currículum", certsTitle: "Certificaciones Oficiales" },
     about: { title: "Sobre mí", location: "Ubicación" },
     experience: { title: "Experiencia" },
     projects: {
@@ -104,7 +104,7 @@ const I18N = {
   pt: {
     nav: { home: "Início", about: "Sobre", experience: "Experiência", projects: "Projetos", courses: "Cursos", blog: "Blog" },
     notification: "Me siga nas redes sociais ou me mande mensagem",
-    hero: { greeting: "Olá! Eu sou", resume: "Currículo" },
+    hero: { greeting: "Olá! Eu sou", resume: "Currículo", certsTitle: "Certificações Oficiais" },
     about: { title: "Sobre Mim", location: "Localização" },
     experience: { title: "Experiência" },
     projects: {
