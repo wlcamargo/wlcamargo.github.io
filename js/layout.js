@@ -21,7 +21,7 @@
     return `
       <nav class="navbar">
         <a href="index.html" class="brand">${SITE_CONFIG.brand}</a>
-        <div class="nav-links">${navLinks}</div>
+        <div class="nav-links" id="nav-links">${navLinks}</div>
         <div class="nav-actions">
           <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme" title="Theme">
             <span class="theme-icon">🌙</span>
@@ -41,6 +41,9 @@
           <div id="notif-popover" class="notif-popover" hidden>
             <p id="notif-text" data-i18n="notification">${SITE_CONFIG.notification}</p>
           </div>
+          <button id="nav-toggle" class="icon-btn nav-toggle" aria-label="Menu" aria-controls="nav-links" aria-expanded="false">
+            <span class="burger"></span>
+          </button>
         </div>
       </nav>
     `;
@@ -90,6 +93,36 @@
     });
   }
 
+  // ---------- MOBILE NAV TOGGLE ----------
+  function setupNavToggle() {
+    const toggle = document.getElementById("nav-toggle");
+    const links  = document.getElementById("nav-links");
+    if (!toggle || !links) return;
+
+    const closeMenu = () => {
+      links.classList.remove("open");
+      toggle.setAttribute("aria-expanded", "false");
+    };
+
+    toggle.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isOpen = links.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    links.querySelectorAll(".nav-link").forEach(link => {
+      link.addEventListener("click", closeMenu);
+    });
+
+    document.addEventListener("click", (e) => {
+      if (!links.contains(e.target) && e.target !== toggle) closeMenu();
+    });
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 768) closeMenu();
+    });
+  }
+
   // ---------- THEME TOGGLE ----------
   function getCurrentTheme() {
     const saved = localStorage.getItem("theme");
@@ -133,6 +166,8 @@
 
     setupLangCombo();
     applyLanguage(getCurrentLang());
+
+    setupNavToggle();
 
     setupThemeToggle();
     applyTheme(getCurrentTheme());
