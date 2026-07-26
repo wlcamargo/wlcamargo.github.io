@@ -208,6 +208,11 @@ const SITE_CONFIG = {
       url:   "https://learn.microsoft.com/api/credentials/share/en-us/wlcamargo/9F29BEAE8D17D8C4?sharingId=52F16E1E9D4D6B2"
     },
     {
+      name: "Azure AI Fundamentals (AI-901)",
+      image: "assets/images/badges/ai-901.png?v=1",
+      url:   "assets/images/badges/ai-901.png?v=1"
+    },
+    {
       name: "Apache Airflow Fundamentals",
       image: "assets/images/badges/airflow.png?v=4",
       url:   "https://www.credly.com/badges/d763c20e-327e-40d8-9562-80d55c5b4b7c/embedded"

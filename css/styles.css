@@ -835,29 +835,38 @@ main {
 
 .cert-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 16px;
   width: 100%;
-  max-width: 760px;
+  max-width: 920px;
 }
 
 .cert-card {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 10px;
   background: var(--bg-soft);
-  border-radius: 10px;
+  border-radius: 14px;
   border: 1px solid var(--border);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  aspect-ratio: 1 / 1;
   transition: transform .15s ease, box-shadow .15s ease;
 }
 .cert-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 14px rgba(0,0,0,.12);
+  box-shadow: 0 8px 20px rgba(0,0,0,.12);
   text-decoration: none;
 }
 .cert-card img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
+  object-fit: contain;
+  padding: 6px;
+  background: var(--bg);
+  border-radius: 10px;
 }
 
 .hero-right {

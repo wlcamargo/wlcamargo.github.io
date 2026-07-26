@@ -4,7 +4,7 @@
   function renderHero() {
     const certs = SITE_CONFIG.certifications.map(c => `
       <a href="${c.url}" target="_blank" rel="noopener" class="cert-card" title="${c.name}">
-        <img src="${c.image}" alt="${c.name}" />
+        <img src="${c.image}" alt="${c.name}" loading="lazy" decoding="async" />
       </a>
     `).join("");
 
