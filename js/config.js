@@ -8,7 +8,7 @@ const SITE_CONFIG = {
   brand: "Wallace Camargo",
 
   // CV para download
-  resumePath: "cv/Data-Engineer-Wallace-Camargo.pdf",
+  resumePath: "cv/Resume-Data-Engineer-Wallace-Camargo.pdf",
 
   // Foto principal (hero)
   heroImage: "assets/images/personal/wallace-camargo.png",
