@@ -204,27 +204,27 @@ const SITE_CONFIG = {
   certifications: [
     {
       name: "Azure Data Fundamentals (DP-900)",
-      image: "assets/images/badges/dp-900.png?v=4",
+      image: "assets/images/badges/dp-900.png?v=5",
       url:   "https://learn.microsoft.com/api/credentials/share/en-us/wlcamargo/9F29BEAE8D17D8C4?sharingId=52F16E1E9D4D6B2"
     },
     {
       name: "Azure AI Fundamentals (AI-901)",
-      image: "assets/images/badges/ai-901.png?v=1",
-      url:   "assets/images/badges/ai-901.png?v=1"
+      image: "assets/images/badges/ai-901.png?v=5",
+      url:   "https://learn.microsoft.com/api/credentials/share/en-us/wlcamargo/E88490340D7984BE?sharingId=52F16E1E9D4D6B2"
     },
     {
       name: "Apache Airflow Fundamentals",
-      image: "assets/images/badges/airflow.png?v=4",
+      image: "assets/images/badges/airflow.png?v=5",
       url:   "https://www.credly.com/badges/d763c20e-327e-40d8-9562-80d55c5b4b7c/embedded"
     },
     {
       name: "Fabric Data Engineer Associate",
-      image: "assets/images/badges/dp700.png?v=4",
+      image: "assets/images/badges/dp700.png?v=5",
       url:   "https://learn.microsoft.com/api/credentials/share/en-us/wlcamargo/54721651A065D9CB?sharingId=52F16E1E9D4D6B2"
     },
     {
       name: "GitHub Foundations (GH-900)",
-      image: "assets/images/badges/github.svg?v=4",
+      image: "assets/images/badges/github.svg?v=5",
       url:   "https://learn.microsoft.com/api/credentials/share/en-us/wlcamargo/2BE31FC1F0230D87?sharingId=52F16E1E9D4D6B2"
     }
   ]
