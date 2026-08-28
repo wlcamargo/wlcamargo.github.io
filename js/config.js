@@ -226,6 +226,11 @@ const SITE_CONFIG = {
       name: "GitHub Foundations (GH-900)",
       image: "assets/images/badges/github.svg?v=5",
       url:   "https://learn.microsoft.com/api/credentials/share/en-us/wlcamargo/2BE31FC1F0230D87?sharingId=52F16E1E9D4D6B2"
+    },
+    {
+      name: "Claude Certified Architect - Foundations",
+      image: "assets/images/badges/claude-certified-architect-foundations.png?v=1",
+      url:   "https://www.credly.com/badges/934332ef-307a-4fdf-a531-ec3379229767"
     }
   ]
 };
