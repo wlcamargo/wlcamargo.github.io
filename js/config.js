@@ -87,6 +87,68 @@ const SITE_CONFIG = {
         "Created and maintained data cubes using the SQL Server stack",
         "Supported strategic BI deliveries for the banking segment"
       ]
+    },
+    {
+      period: "NOV 2020 — DEC 2021",
+      company: "A Nossa Drogaria",
+      role: "Business Intelligence Analyst · Rio de Janeiro, Brazil",
+      meta: "Pharmaceutical Segment · SQL Server, SSIS, Power BI",
+      bullets: [
+        "Implemented ETL pipelines using SSIS (Integration Services)",
+        "Developed dashboards using Power BI"
+      ]
+    },
+    {
+      period: "OCT 2017 — NOV 2020",
+      company: "Cepem",
+      role: "Marketing Data Analyst · Rio de Janeiro, Brazil",
+      meta: "Health Segment · Excel, Power BI, Google Analytics, Tracksale",
+      bullets: [
+        "Created and updated dashboards using Excel and Power BI",
+        "Developed VBA scripts for task automation in Excel",
+        "Monitored marketing campaign results"
+      ]
+    }
+  ],
+
+  // Cursos (página Courses). Cada imagem pode ter seu próprio link;
+  // "link" e "repo" do curso são opcionais.
+  courses: [
+    {
+      title:  "Free SQL Course - SQL Server",
+      images: [
+        { src: "assets/images/courses/evangelizando-sql.png" },
+        { src: "assets/images/courses/evangelizando-sql-encontro.png" }
+      ],
+      link:   "https://youtube.com/live/fltjmaeXbfQ",
+      repo:   "https://github.com/wlcamargo/evangelizando_sql"
+    },
+    {
+      title:  "Sparkanos Course - Arruda Consulting",
+      images: [
+        { src: "assets/images/courses/sparkanos-architecture-arruda-consulting.png" }
+      ],
+      link:   "https://sparkanos.arrudaconsulting.com.br/"
+    },
+    {
+      title:  "Soda Data Quality - Apoena Stack",
+      images: [
+        { src: "assets/images/courses/data-quality-soda-apoena-stack.png" }
+      ],
+      link:   "https://app.apoenastack.com/p/courses/qualidade-de-dados-com-soda"
+    },
+    {
+      title:  "Arruda Podcast",
+      images: [
+        { src: "assets/images/courses/arruda-podcast.png",  link: "https://www.youtube.com/watch?v=vT_zXXje5ww" },
+        { src: "assets/images/courses/arruda-podcast2.png", link: "https://www.youtube.com/watch?v=gSoHbqJ4qBA" }
+      ]
+    },
+    {
+      title:  "Azure Course Feat Shalom Andre",
+      images: [
+        { src: "assets/images/courses/azure-course.png" }
+      ]
     }
   ],
 
@@ -113,6 +175,14 @@ const SITE_CONFIG = {
   // Para criar um novo post: adicione o arquivo Markdown na pasta e
   // inclua aqui (mais recente primeiro).
   posts: [
+    {
+      slug:    "docker-manager-portainer",
+      title:   "Managing Docker containers with Portainer",
+      date:    "2026-10-21",
+      summary: "A minimal Docker Compose setup to run Portainer locally and manage your containers from a web UI.",
+      tags:    ["docker", "portainer", "devops"],
+      file:    "content/posts/docker-manager-portainer.md"
+    },
     {
       slug:    "modern-data-stack-dbt-dremio-powerbi",
       title:   "Modern Data Stack: dbt + Dremio + Power BI",
@@ -231,6 +301,11 @@ const SITE_CONFIG = {
       name: "Claude Certified Architect - Foundations",
       image: "assets/images/badges/claude-certified-architect-foundations.png?v=1",
       url:   "https://www.credly.com/badges/934332ef-307a-4fdf-a531-ec3379229767"
+    },
+    {
+      name: "Claude Certified Architect - Professional",
+      image: "assets/images/badges/claude-certified-architect-professional.png?v=1",
+      url:   "https://www.credly.com/badges/e340becd-bbf8-4f10-98d6-26cd9a25fb24"
     }
   ]
 };

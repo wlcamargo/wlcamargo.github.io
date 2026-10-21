@@ -48,6 +48,12 @@ const I18N = {
       viewYoutube: "Watch on YouTube →",
       ytNote: "Tutorials and walkthroughs on Data Engineering, Python and the modern data stack."
     },
+    courses: {
+      title: "Courses",
+      sub: "Courses, talks and podcasts I've taken part in.",
+      access: "Access course →",
+      repo: "Repository →"
+    },
     blog: {
       title: "Blog",
       sub: "Notes and tutorials on Data Engineering and the modern data stack.",
@@ -83,6 +89,12 @@ const I18N = {
       viewYoutube: "Ver en YouTube →",
       ytNote: "Tutoriales y guías sobre Data Engineering, Python y el modern data stack."
     },
+    courses: {
+      title: "Cursos",
+      sub: "Cursos, charlas y podcasts en los que he participado.",
+      access: "Acceder al curso →",
+      repo: "Repositorio →"
+    },
     blog: {
       title: "Blog",
       sub: "Notas y tutoriales sobre Data Engineering y el modern data stack.",
@@ -117,6 +129,12 @@ const I18N = {
       viewGithub: "Ver no GitHub →",
       viewYoutube: "Assistir no YouTube →",
       ytNote: "Tutoriais e walkthroughs sobre Engenharia de Dados, Python e o modern data stack."
+    },
+    courses: {
+      title: "Cursos",
+      sub: "Cursos, palestras e podcasts dos quais participei.",
+      access: "Acessar curso →",
+      repo: "Repositório →"
     },
     blog: {
       title: "Blog",
